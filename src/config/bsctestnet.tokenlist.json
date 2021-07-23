@@ -1,0 +1,93 @@
+{
+    "name": "Balancer",
+    "tokens":[
+        {
+            "address": "0xae13d989dac2f0debff460ac112a837c89baa7cd",
+            "chainId": 97,
+            "name": "WBNB",
+            "symbol": "WBNB",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/logo.png"
+        },
+        {
+            "address": "0x7ef95a0fee0dd31b22626fa2e10ee6a223f8a684",
+            "chainId": 97,
+            "name": "USDT",
+            "symbol": "USDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+        },
+        {
+            "address": "0x8babbb98678facc7342735486c851abd7a0d17ca",
+            "chainId": 97,
+            "name": "ETH",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x2170Ed0880ac9A755fd29B2688956BD959F933F8/logo.png"
+        },
+        {
+            "address": "0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7",
+            "chainId": 97,
+            "name": "BUSD",
+            "symbol": "BUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/logo.png"
+        },
+        {
+            "address": "0x8a9424745056Eb399FD19a0EC26A14316684e274",
+            "chainId": 97,
+            "name": "DAI",
+            "symbol": "DAI",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/9956/thumb/dai-multi-collateral-mcd.png?1574218774"
+        },
+        {
+            "address": "0xF4B2c8dE0f32340f7d09bc0936879A0d67A51187",
+            "chainId": 97,
+            "name": "EG1",
+            "symbol": "EG1",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/algorand/info/logo.png"
+        },
+        {
+            "address": "0x42d5688F8e7d3b7073a3113d476D0a8F3454c40B",
+            "chainId": 97,
+            "name": "EG2",
+            "symbol": "EG2",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/algorand/info/logo.png"
+        },
+        {
+            "address": "0xd1487742a115fD5D4A4BFB8156120384999ec4c9",
+            "chainId": 97,
+            "name": "EG3",
+            "symbol": "EG3",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/algorand/info/logo.png"
+        },
+        {
+            "address": "0x835b85f2Dc2ca78E8993488eeF928dc4caB1Ac69",
+            "chainId": 97,
+            "name": "EG4",
+            "symbol": "EG4",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/algorand/info/logo.png"
+        },
+        {
+            "address": "0xc5fee97beed6fec6eb0847fd947eb8948cb33366",
+            "chainId": 97,
+            "name": "EG5",
+            "symbol": "EG5",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/algorand/info/logo.png"
+        },
+        {
+            "address": "0xA7b391dcc054DE81c4a908e3d1B49dF47F9a70E6",
+            "chainId": 97,
+            "name": "EG6",
+            "symbol": "EG6",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/algorand/info/logo.png"
+        }
+    ]
+    }
