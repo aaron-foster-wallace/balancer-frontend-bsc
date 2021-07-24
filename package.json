@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@balancer-labs/assets": "github:balancer-labs/assets#master",
-    "@balancer-labs/sor-bnb": "aaron-foster-wallace/balancer-sor#master",
+    "@balancer-labs/sor-bnb": "github:aaron-foster-wallace/balancer-sor#master",
     "@ethersproject/address": "^5.0.6",
     "@ethersproject/constants": "^5.0.6",
     "@ethersproject/contracts": "^5.0.6",
