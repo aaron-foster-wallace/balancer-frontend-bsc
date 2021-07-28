@@ -32,8 +32,9 @@ import BigNumber from 'bignumber.js';
 
 import org_eligibleAssetList from '@balancer-labs/assets/lists/eligible.json';
 import elegibleBSCTestnet from '@/config/elegible.bcstestnet.json';
-
-const eligibleAssetList={ ...elegibleBSCTestnet, ...org_eligibleAssetList };
+import elegibleBSC from '@/config/elegible.bcs.json';
+const added_elegibles = process.env.APP_CHAIN_ID == "56"?elegibleBSC:elegibleBSCTestnet;
+const eligibleAssetList={ ...added_elegibles, ...org_eligibleAssetList };
 
 export default defineComponent({
     props: {

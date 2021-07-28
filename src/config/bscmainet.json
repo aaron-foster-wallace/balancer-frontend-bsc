@@ -1,0 +1,27 @@
+{
+    "network": "bsc",
+    "chainId": 56,
+    "precision": 2,
+    "rpcUrl": "https://bsc-dataseed.binance.org/",
+    "subgraphUrl": "https://api.thegraph.com/subgraphs/name/aaron-foster-wallace/balancer-on-bsc-chapel-a1",
+    "subgraphBackupUrl": "https://api.thegraph.com/subgraphs/name/aaron-foster-wallace/balancer-on-bsc-chapel-a1",
+    "addresses": {
+        "bFactory": "0x1146a66b9f26069e5c8ad88679de6d0a1611c27b",
+        "bActions": "0x372d3737ef5b78602ac6c25b6592916ebeb0ccef",
+        "dsProxyRegistry": "0xd755208726d3c886266218f3ef39002bb4f08ba5",
+        "exchangeProxy": "0x4cf3217b505d63492cd33BEE77F6061836B776b9",
+        "weth": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "multicall": "0x41263cba59eb80dc200f3e2544eda4ed6a90e76c"
+    },
+    "connectors": {
+        "injected": {
+            "id": "injected",
+            "name": "MetaMask"
+        },
+        "walletconnect": {
+            "rpc": {
+                "97": "https://bsc-dataseed.binance.org/"
+            }
+        }
+    }
+}

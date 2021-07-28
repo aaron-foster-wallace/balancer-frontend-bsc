@@ -3,6 +3,8 @@ import tokenlist from '@balancer-labs/assets/generated/listed.tokenlist.json';
 import config, { AssetMetadata } from '@/config';
 
 import BCSTestnetTokenList from '@/config/bsctestnet.tokenlist.json';
+import BCSTokenList from '@/config/bsc.tokenlist.json';
+
 
 const ETH_LOGO = 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png';
 
@@ -34,7 +36,8 @@ export const listMetadata: Record<string, string> = {
 
 export async function getTokenlist(id: string): Promise<TokenList> {
     if (id === DEFAULT_LIST) {
-        return BCSTestnetTokenList;
+        if(process.env.APP_CHAIN_ID == "97") return BCSTestnetTokenList;
+        if (process.env.APP_CHAIN_ID == "56") return BCSTokenList;
     }
     const listUrl = listMetadata[id];
     const response = await fetch(listUrl);

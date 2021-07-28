@@ -1,0 +1,45 @@
+{
+    "name": "Balancer",
+    "tokens":[
+        {
+            "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+            "chainId": 97,
+            "name": "WBNB",
+            "symbol": "WBNB",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/logo.png"
+        },
+        {
+            "address": "0x55d398326f99059fF775485246999027B3197955",
+            "chainId": 97,
+            "name": "USDT",
+            "symbol": "USDT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png"
+        },
+        {
+            "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+            "chainId": 97,
+            "name": "ETH",
+            "symbol": "ETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x2170Ed0880ac9A755fd29B2688956BD959F933F8/logo.png"
+        },
+        {
+            "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+            "chainId": 97,
+            "name": "BUSD",
+            "symbol": "BUSD",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/logo.png"
+        },
+        {
+            "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+            "chainId": 97,
+            "name": "DAI",
+            "symbol": "DAI",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/9956/thumb/dai-multi-collateral-mcd.png?1574218774"
+        }
+    ]
+    }
